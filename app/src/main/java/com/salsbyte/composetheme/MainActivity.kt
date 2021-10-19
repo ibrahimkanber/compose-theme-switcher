@@ -89,7 +89,7 @@ fun ThemeSwitch(
         )
         RadioGroupOptions(
             items = themeItems,
-            selected = theme.value.ordinal,//selectedTheme.ordinal,
+            selected = theme.value.ordinal,
             onItemSelect = {
                     id -> onItemSelected(AppTheme.fromOrdinal(id))
             },
